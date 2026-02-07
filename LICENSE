@@ -1,0 +1,160 @@
+# BioPay / Paycomp Ecosafety License 2026  
+_for aln-quantumsynergy-pos-vm-amazon_
+
+## 1. Preamble
+
+This software is part of an ecosafety-oriented financial infrastructure stack designed for sub-cent USD rails, AugFingerprint-aware payments, and organically-integrated augmented citizen support within smart-city and Phoenix-style corridors. It is intended to be used only in deployments that uphold neurorights, data sovereignty, non-exclusion from basics, and ecosafety constraints expressed through KER (Knowledge, Eco-impact, Risk-of-harm) scoring and Rust/ALN guard invariants. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/2b3ead16-b34a-45d7-9eea-8e1cb885eb03/biopay-the-biophysical-mop-exp-UtzbIXCLSXOM6UHrmq0w2w.md)
+
+By using, modifying, or distributing this software, you agree to the terms below.
+
+## 2. Copyright and Authorship
+
+Copyright (c) 2026, the original author(s) and contributors of:
+
+- `aln-quantumsynergy-pos-vm-amazon`  
+- Associated Paycomp/BioPay qpudatashards, ALN manifests, and Rust guard modules referenced in this repository. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/ed4f83ec-69e0-49a7-aaaf-e1cfa60c76ef/what-else-can-we-learn-and-dis-nJPYJFfCR9mfpTpkwxv2qw.md)
+
+All rights reserved except as expressly granted in this license.
+
+## 3. Grant of Rights
+
+Subject to full compliance with Sections 4–8, you are granted a worldwide, royalty-free, non-exclusive license to:
+
+1. Use, copy, and run the software, including in production environments.  
+2. Modify the software, create derivative works, and maintain internal forks.  
+3. Distribute unmodified or modified versions of the software in source or binary form.  
+4. Integrate the software with other systems (including commercial products), **provided** the resulting deployments comply with the ecosafety, neurorights, and non-exclusion conditions in this license. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/aa86b258-b7b8-4706-91a0-cfcd39337400/paycomp-as-an-ecosafety-archit-fmuCjSjsR6CkVp35gb5Wuw.md)
+
+These rights are granted on a per-deployment basis and can be revoked for non-compliant deployments as described in Section 9.
+
+## 4. Ecosafety and KER Governance Requirements
+
+Any deployment of this software (or derivatives) that handles real users, real funds, or real civic data MUST:
+
+1. Implement qpudatashard-style ledgers or equivalent, with explicit KER fields (Knowledge, Eco-impact, Risk-of-harm) for relevant flows. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/aa86b258-b7b8-4706-91a0-cfcd39337400/paycomp-as-an-ecosafety-archit-fmuCjSjsR6CkVp35gb5Wuw.md)
+2. Enforce Lyapunov-style “no unsafe transaction” invariants, such that residual risk-of-harm \( R_{t+1} \le R_t \) for admissible updates, encoded via Rust/ALN guard modules or equivalent formally checkable logic. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/aa86b258-b7b8-4706-91a0-cfcd39337400/paycomp-as-an-ecosafety-archit-fmuCjSjsR6CkVp35gb5Wuw.md)
+3. Use integer microunits (e.g., \(0.001\) USD) or equivalent sub-cent precision where this software is used to process payments or credit flows, to prevent rounding leakage and hidden drift. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/2b3ead16-b34a-45d7-9eea-8e1cb885eb03/biopay-the-biophysical-mop-exp-UtzbIXCLSXOM6UHrmq0w2w.md)
+4. Maintain open, auditable grammars for financial corridors, with “no corridor, no deployment” rules for products, pilots, or hardware nodes, enforced via CI and/or independent review. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/aa86b258-b7b8-4706-91a0-cfcd39337400/paycomp-as-an-ecosafety-archit-fmuCjSjsR6CkVp35gb5Wuw.md)
+
+Deployments that disable or circumvent these constraints are not licensed under this agreement.
+
+## 5. Neurorights, Non-Exclusion, and Augmented-Citizen Protections
+
+Where this software is used in contexts involving organically-integrated augmented citizens, neuro-adjacent interfaces, or AugFingerprint-style payment features, the deployment MUST:
+
+1. Recognize “organically-integrated augmented citizen” (or equivalent) as a protected capability class in its schemas and policies (e.g., via `austatus` fields or equivalent). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/ed4f83ec-69e0-49a7-aaaf-e1cfa60c76ef/what-else-can-we-learn-and-dis-nJPYJFfCR9mfpTpkwxv2qw.md)
+2. Encode and enforce non-waivable rights flags equivalent to:
+
+   - `noexclusionbasicservices = true` (no denial of ServiceClassBasic essentials solely due to augmentation, payment format, or neurorightssafe civic participation). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/2b3ead16-b34a-45d7-9eea-8e1cb885eb03/biopay-the-biophysical-mop-exp-UtzbIXCLSXOM6UHrmq0w2w.md)
+   - `noneurocoercion = true` (no forced access to inner mental states or neural data as a condition for basics, safety, or legal recognition). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/ed4f83ec-69e0-49a7-aaaf-e1cfa60c76ef/what-else-can-we-learn-and-dis-nJPYJFfCR9mfpTpkwxv2qw.md)
+   - `revocableatwill = true` (consent for telemetry or augmented capabilities is revocable without loss of basics). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/2b3ead16-b34a-45d7-9eea-8e1cb885eb03/biopay-the-biophysical-mop-exp-UtzbIXCLSXOM6UHrmq0w2w.md)
+   - `noscorefrominnerstate = true` (no scoring or penalization based on inferred inner thoughts or feelings). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/ed4f83ec-69e0-49a7-aaaf-e1cfa60c76ef/what-else-can-we-learn-and-dis-nJPYJFfCR9mfpTpkwxv2qw.md)
+
+3. Treat internal biophysical or neural signals only as inputs to a rights-respecting AI companion or guard layer, never as raw signals exposed to merchants, employers, or states. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/2b3ead16-b34a-45d7-9eea-8e1cb885eb03/biopay-the-biophysical-mop-exp-UtzbIXCLSXOM6UHrmq0w2w.md)
+4. Encode caps and corridors such as `maxpromptsperhour`, `maxdecisionsperhour`, `latencytolerancemsmax`, and “consent as corridor” rules, so that payment and consent prompts cannot be used to overload or coerce users. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/ed4f83ec-69e0-49a7-aaaf-e1cfa60c76ef/what-else-can-we-learn-and-dis-nJPYJFfCR9mfpTpkwxv2qw.md)
+
+Any system that uses this software to build surveillance tools, coercive profiling, social-credit scoring, or exclusionary policies is expressly prohibited from doing so under this license.
+
+## 6. Sub-Cent Credit Rails and Anti-Leakage Constraints
+
+If this software is used to implement payment, settlement, or credit mechanisms:
+
+1. Monetary units must be represented as scaled integers (e.g., mill-based `amount_mills`) to avoid floating-point rounding errors. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/aa86b258-b7b8-4706-91a0-cfcd39337400/paycomp-as-an-ecosafety-archit-fmuCjSjsR6CkVp35gb5Wuw.md)
+2. Rounding residuals must be conserved and eventually credited back to the originating payer or to a clearly defined public-interest eco-account, never silently captured as untracked revenue. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/aa86b258-b7b8-4706-91a0-cfcd39337400/paycomp-as-an-ecosafety-archit-fmuCjSjsR6CkVp35gb5Wuw.md)
+3. Loan and repayment schedules must avoid systematic over-collection caused by rounding biases, using the same sub-cent precision upheld in ledger operations. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/aa86b258-b7b8-4706-91a0-cfcd39337400/paycomp-as-an-ecosafety-archit-fmuCjSjsR6CkVp35gb5Wuw.md)
+
+Use of this software to deliberately implement “rounding tax” patterns or hidden residual capture is prohibited.
+
+## 7. Data Sovereignty, DID / Bostrom Anchoring, and Googolswarm
+
+All telemetry, financial state, and consent state managed with this software MUST:
+
+1. Be anchored to decentralized identifiers (DIDs), including Bostrom-style addresses where appropriate, under user- or institution-controlled keys. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/2b3ead16-b34a-45d7-9eea-8e1cb885eb03/biopay-the-biophysical-mop-exp-UtzbIXCLSXOM6UHrmq0w2w.md)
+2. Use qpudatashards or equivalent DID-signed records as the primary log, with users retaining ownership and export rights to their own shards. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/ed4f83ec-69e0-49a7-aaaf-e1cfa60c76ef/what-else-can-we-learn-and-dis-nJPYJFfCR9mfpTpkwxv2qw.md)
+3. Anchor critical manifests, metrics, and audit hashes into a tamper-resistant ledger (e.g., Googolswarm or equivalent), with multi-sig or similar mechanisms for governance attestation. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/2b3ead16-b34a-45d7-9eea-8e1cb885eb03/biopay-the-biophysical-mop-exp-UtzbIXCLSXOM6UHrmq0w2w.md)
+4. Never treat biophysical or neural telemetry as a bearer key; credentials must be cryptographic and revocable without invasive changes to the body. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/ed4f83ec-69e0-49a7-aaaf-e1cfa60c76ef/what-else-can-we-learn-and-dis-nJPYJFfCR9mfpTpkwxv2qw.md)
+
+## 8. Allowed and Prohibited Uses
+
+### 8.1 Allowed Uses
+
+Subject to Sections 4–7, allowed uses include:
+
+- Smart-city POS systems and payment pilots that uphold KER-scored ecosafety corridors and non-exclusion invariants. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/aa86b258-b7b8-4706-91a0-cfcd39337400/paycomp-as-an-ecosafety-archit-fmuCjSjsR6CkVp35gb5Wuw.md)
+- Accessibility-first payment, ID, and consent systems for augmented and non-augmented citizens, provided inner-state signals are handled via rights-respecting abstractions. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/2b3ead16-b34a-45d7-9eea-8e1cb885eb03/biopay-the-biophysical-mop-exp-UtzbIXCLSXOM6UHrmq0w2w.md)
+- Research, education, and public-interest deployments that strengthen ecosafety, financial fairness, debt transparency, and Earth-restoration-aligned governance. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/2b3ead16-b34a-45d7-9eea-8e1cb885eb03/biopay-the-biophysical-mop-exp-UtzbIXCLSXOM6UHrmq0w2w.md)
+
+### 8.2 Prohibited Uses
+
+The following uses are expressly prohibited and void the license for the offending deployment:
+
+1. Social-credit-style scoring, predictive policing, or reputational blacklisting based on inferred inner state, disability, or augmented status. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/ed4f83ec-69e0-49a7-aaaf-e1cfa60c76ef/what-else-can-we-learn-and-dis-nJPYJFfCR9mfpTpkwxv2qw.md)
+2. Mass surveillance, behavioral tracking, or “smart city” monitoring that uses this software to erode privacy, coerce consent, or gate access to basics. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/aa86b258-b7b8-4706-91a0-cfcd39337400/paycomp-as-an-ecosafety-archit-fmuCjSjsR6CkVp35gb5Wuw.md)
+3. Speculative financialization of reputation or eco-credits (e.g., tokenizing non-transferable KnowledgeCredit or ecoscores as tradeable securities). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/2b3ead16-b34a-45d7-9eea-8e1cb885eb03/biopay-the-biophysical-mop-exp-UtzbIXCLSXOM6UHrmq0w2w.md)
+4. Deployment of the code in weapons systems, offensive cyber operations, or any system whose primary function is to harm, intimidate, or oppress.  
+5. Circumvention, disabling, or falsification of KER fields, Rust/ALN guard logic, or qpudatashard records in production environments. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/aa86b258-b7b8-4706-91a0-cfcd39337400/paycomp-as-an-ecosafety-archit-fmuCjSjsR6CkVp35gb5Wuw.md)
+
+## 9. Conditional Termination
+
+This license is automatically and immediately terminated for any deployment that:
+
+1. Violates the ecosafety, neurorights, or non-exclusion constraints in Sections 4–8; or  
+2. Uses the software for prohibited purposes listed in Section 8.2.
+
+Termination applies at the deployment or product level, not automatically to all users of the code. Upon termination, you must:
+
+- Cease use of the software in the violating deployment.  
+- Remove references to this project’s authors and ecosystems from marketing and compliance claims.  
+- Retain and preserve audit logs for independent review, where legally permissible.
+
+Reinstatement may be granted by the original authors or stewards upon proof of remediation, but is not guaranteed.
+
+## 10. Contribution and Derivatives
+
+Contributions to this repository are accepted under the following conditions:
+
+1. Contributors grant the maintainers a perpetual, worldwide, royalty-free license to use, modify, and relicense contributions under this same BioPay / Paycomp Ecosafety License. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/2b3ead16-b34a-45d7-9eea-8e1cb885eb03/biopay-the-biophysical-mop-exp-UtzbIXCLSXOM6UHrmq0w2w.md)
+2. Contributors attest that their contributions do not knowingly introduce prohibited-use patterns (e.g., covert telemetry export, social-credit scoring hooks, or guard-bypassing backdoors).  
+3. Derivative works must:
+
+   - Preserve this license text (or a future compatible version) in the root of the derivative repository.  
+   - Clearly document any changes that materially affect ecosafety, neurorights, or KER semantics.  
+   - Not weaken the non-exclusion and neuroright safeguards in any renamed or forked license.
+
+## 11. Disclaimer of Warranty
+
+THIS SOFTWARE IS PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/aa86b258-b7b8-4706-91a0-cfcd39337400/paycomp-as-an-ecosafety-archit-fmuCjSjsR6CkVp35gb5Wuw.md)
+
+The authors do not warrant that the software will:
+
+- Meet all requirements of regulators or standards bodies in any jurisdiction.  
+- Be free from defects, vulnerabilities, or misconfigurations in specific deployments.  
+- Prevent all forms of financial loss, exclusion, or harm when misused.
+
+Responsibility for safe configuration, governance, and operation of deployments that include this software rests with the deploying parties.
+
+## 12. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/aa86b258-b7b8-4706-91a0-cfcd39337400/paycomp-as-an-ecosafety-archit-fmuCjSjsR6CkVp35gb5Wuw.md)
+
+This includes, without limitation, liability for:
+
+- Direct, indirect, incidental, special, exemplary, or consequential damages.  
+- Loss of data, profits, goodwill, or civic standing.  
+- Harm arising from deployments that ignore or circumvent the safeguards mandated in this license.
+
+## 13. Choice of Law and Dispute Context
+
+This license is designed to be compatible with neurorights charters, accessibility law, and ecosafety-aligned governance frameworks (e.g., Phoenix SSG, EcoNet, and Paycomp corridors). Where conflicts arise between this license and local law, local law prevails, but such conflicts do not grant permission for prohibited uses. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_b87dd20a-02c1-4c44-b3b5-e87ddc946bf8/2b3ead16-b34a-45d7-9eea-8e1cb885eb03/biopay-the-biophysical-mop-exp-UtzbIXCLSXOM6UHrmq0w2w.md)
+
+Parties are encouraged to treat disputes about compliance with this license as matters of public-interest governance, not merely private contract disputes, and to involve independent auditors or civic bodies where appropriate.
+
+## 14. Future Versions
+
+The maintainers may publish future, compatible versions of this license (“BioPay / Paycomp Ecosafety License X.Y”). New versions will:
+
+- Preserve the core neurorights, ecosafety, and non-exclusion invariants.  
+- Clarify but not weaken protections for organically-integrated augmented citizens.  
+- Remain non-permissive with respect to surveillance, coercion, and speculative misuse.
+
+Repositories may opt to upgrade to a later version by replacing this text and indicating the chosen version in repository documentation.
