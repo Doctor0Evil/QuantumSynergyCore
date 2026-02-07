@@ -1,0 +1,21 @@
+contract QuantumSynergyPOS ver 1.0.5 {
+    image.type      = "OS_IMAGE";
+    image.name      = "QuantumSynergyPOS";
+    image.channel   = "stable";
+    deploy.target   = "$HOMEDIR$:V://System";
+    storage.units   = 1;
+    storage.scale   = "Petabyte";
+
+    require {
+        fs.vfs.petabyte_array == true;
+        merchant.device.vendor == "verifone";
+        network.framework == "Alien_Language_Network";
+    }
+
+    enforce {
+        sims.enabled        = false;
+        sims.barriers       = false;
+        branch.id           = "branch0.AMPM.merch.aln.pos";
+        branch.is_verified  = true;
+    }
+}
