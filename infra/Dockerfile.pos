@@ -1,0 +1,12 @@
+FROM rust:1.81 as builder
+WORKDIR /app
+COPY pos-core ./pos-core
+COPY Cargo.toml Cargo.lock ./
+RUN cd pos-core && cargo build --release
+
+FROM debian:12-slim
+WORKDIR /app
+COPY --from=builder /app/pos-core/target/release/aln_pos_core /usr/local/bin/aln_pos_core
+ENV RUST_LOG=info
+EXPOSE 8080
+CMD ["aln_pos_core"]
