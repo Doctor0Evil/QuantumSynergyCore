@@ -1,0 +1,31 @@
+[package]
+name = "aln_pos_core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.38", features = ["macros", "rt-multi-thread"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+regex = "1.10"
+uuid = { version = "1.8", features = ["v4", "serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+anyhow = "1.0"
+thiserror = "1.0"
+config = "0.14"
+deadpool-postgres = { version = "0.14", features = ["tokio1"] }
+tokio-postgres = { version = "0.7", features = ["with-chrono-0_4", "with-uuid-1"] }
+bb8-redis = "0.15"
+redis = { version = "0.25", features = ["tokio-comp"] }
+rdkafka = { version = "0.36", features = ["tokio"] }
+axum = { version = "0.7", features = ["macros"] }
+tower = "0.5"
+tower-http = { version = "0.6", features = ["trace"] }
+hyper = { version = "1.3", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+ethers = { version = "2.0", features = ["abigen", "ws", "rustls"] }
+solana-client = "2.1"
+solana-sdk = "2.1"
+prometheus = "0.13"
+lazy_static = "1.5"
