@@ -1,0 +1,19 @@
+{
+  "name": "sgc-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:sgc": "hardhat run scripts/deploy_sgc.js --network optimistic",
+    "deploy:treasury": "hardhat run scripts/deploy_treasury.js --network optimistic",
+    "deploy:flash": "hardhat run scripts/deploy_flashloan.js --network optimistic"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.8.0"
+  }
+}
