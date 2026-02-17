@@ -1,0 +1,10 @@
+FROM rust:1.81 as builder
+WORKDIR /app
+COPY aln-cli ./aln-cli
+COPY Cargo.toml Cargo.lock ./
+RUN cd aln-cli && cargo build --release
+
+FROM debian:12-slim
+WORKDIR /app
+COPY --from=builder /app/aln-cli/target/release/aln_pos_cli /usr/local/bin/aln_pos_cli
+ENTRYPOINT ["aln_pos_cli"]
