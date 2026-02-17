@@ -1,0 +1,73 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: clf_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pos_quantum_synergy_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7.4
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "6379:6379"
+
+  kafka:
+    image: bitnami/kafka:3.8
+    environment:
+      KAFKA_CFG_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_CFG_LISTENERS: PLAINTEXT://:9092
+      KAFKA_CFG_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      ALLOW_PLAINTEXT_LISTENER: "yes"
+    ports:
+      - "9092:9092"
+    depends_on:
+      - zookeeper
+
+  zookeeper:
+    image: bitnami/zookeeper:3.9
+    environment:
+      ALLOW_ANONYMOUS_LOGIN: "yes"
+    ports:
+      - "2181:2181"
+
+  pos-core:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile.pos
+    environment:
+      APP__PG_DSN: postgres://postgres:postgres@postgres:5432/clf_db
+      APP__REDIS_URL: redis://redis:6379
+      APP__KAFKA_BROKERS: kafka:9092
+      APP__KAFKA_TOPIC: pos_transactions
+      APP__HTTP_PORT: 8080
+      APP__OPTIMISTIC_RPC: https://mainnet.optimism.io
+      APP__OPTIMISTIC_SGC_ADDRESS: 0x0000000000000000000000000000000000000000
+      APP__SOLANA_RPC: https://api.mainnet-beta.solana.com
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+      - redis
+      - kafka
+
+  prometheus:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile.prometheus
+    ports:
+      - "9090:9090"
+
+  loki:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile.loki
+    ports:
+      - "3100:3100"
+
+volumes:
+  pos_quantum_synergy_data:
